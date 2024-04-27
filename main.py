@@ -5,7 +5,7 @@ import pandas as pd
 app=FastAPI()
 
 #Lectura de datos
-df_genres=pd.read_csv('Datos_procesados/genres.csv')
+df_genres=pd.read_csv('Datos_procesados/genres_analysis.csv')
 genres=df_genres['Genre'].to_list()
 
 #Endpoints de la API
