@@ -9,6 +9,8 @@ df_genres=pd.read_csv('Datos_procesados/genres_analysis.csv')
 genres=df_genres['Genre'].to_list()
 df_recommended_gamesxgames=pd.read_csv('Datos_procesados/df_recommended_gamesxgames.csv')
 product_ids=df_recommended_gamesxgames['item_id'].to_list()
+df_year_recommendations=pd.read_csv('Datos_procesados/year_recommendations.csv')
+anios=df_year_recommendations['year'].to_list()
 
 #Endpoints de la API
 #@profile
@@ -31,8 +33,32 @@ def UserForGenre( genero : str ):
     else:
         jugador= df_genres[df_genres['Genre']==genero]['PlayerMH'].item()
         detalleanio= df_genres[df_genres['Genre']==genero]['Years Played by player'].item()
-        return('{"Usuario con más horas jugadas para Género X" : '+str(jugador)+', \n"Horas jugadas":'+str(detalleanio))
-    
+        return('{"Usuario con más horas jugadas para Género X" : '+str(jugador)+', \n "Horas jugadas":'+str(detalleanio))
+
+
+@app.get("/UsersRecommend/{año}")
+def UsersRecommend( anio : int ):
+    # mensaje si se ingresa un tipo incorrecto o bien no se escribe bien el género. Devuelve el listado de géneros.
+    if (type(anio)!= int) or (anio not in anios): 
+        return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(anios))
+    else:
+        reco1 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_id_1'].item()
+        reco2 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_id_2'].item()
+        reco3 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_id_3'].item()
+        return('Recomendaciones del año '+str(anio)+': '+str(reco1)+', '+str(reco2)+', '+str(reco3))
+
+
+@app.get("/UsersNotRecommend/{año}")
+def UsersNotRecommend( anio : int ):
+    # mensaje si se ingresa un tipo incorrecto o bien no se escribe bien el género. Devuelve el listado de géneros.
+    if (type(anio)!= int) or (anio not in anios): 
+        return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(anios))
+    else:
+        notreco1 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_id_1'].item()
+        notreco2 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_id_2'].item()
+        notreco3 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_id_3'].item()
+        return('Juegos menos recomendados del año '+str(anio)+': '+str(notreco1)+', '+str(notreco2)+', '+str(notreco3))
+
 
 @app.get("/Recomendación_juego/{product_id}")
 def recomendacion_juego( product_id : int ):
