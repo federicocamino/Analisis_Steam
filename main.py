@@ -55,7 +55,7 @@ def UsersRecommend( anio : int ):
 def UsersNotRecommend( anio : int ):
     # mensaje si se ingresa un tipo incorrecto o bien no se escribe bien el género. Devuelve el listado de géneros.
     if (type(anio)!= int) or (anio not in anios): 
-        return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(anios))
+        return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(str(anios)))
     else:
         notreco1 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_title_1'].item()
         notreco2 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_title_2'].item()
@@ -66,7 +66,7 @@ def UsersNotRecommend( anio : int ):
 def sentiment_analysis( anio : int ):
     # mensaje si se ingresa un tipo incorrecto o bien no se escribe bien el género. Devuelve el listado de géneros.
     if (type(anio)!= int) or (anio not in anioslanzamiento): 
-        return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(anios))
+        return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(str(anioslanzamiento)))
     else:
         Negativo = df_releaseyear_sentiment[df_releaseyear_sentiment['release_year']==anio]['Negative'].item()
         Neutral = df_releaseyear_sentiment[df_releaseyear_sentiment['release_year']==anio]['Neutral'].item()
