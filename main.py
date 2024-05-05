@@ -45,9 +45,9 @@ def UsersRecommend( anio : int ):
     if (type(anio)!= int) or (anio not in anios): 
         return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(anios))
     else:
-        reco1 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_id_1'].item()
-        reco2 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_id_2'].item()
-        reco3 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_id_3'].item()
+        reco1 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_title_1'].item()
+        reco2 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_title_2'].item()
+        reco3 = df_year_recommendations[df_year_recommendations['year']==anio]['recommend_title_3'].item()
         return('Recomendaciones del año '+str(anio)+': '+str(reco1)+', '+str(reco2)+', '+str(reco3))
 
 
@@ -57,9 +57,9 @@ def UsersNotRecommend( anio : int ):
     if (type(anio)!= int) or (anio not in anios): 
         return ("No se encuentra el año indicado. \nEste es un listado de los años para los cuales tenemos información: \n" + ', '.join(anios))
     else:
-        notreco1 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_id_1'].item()
-        notreco2 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_id_2'].item()
-        notreco3 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_id_3'].item()
+        notreco1 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_title_1'].item()
+        notreco2 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_title_2'].item()
+        notreco3 = df_year_recommendations[df_year_recommendations['year']==anio]['not_recommend_title_3'].item()
         return('Juegos menos recomendados del año '+str(anio)+': '+str(notreco1)+', '+str(notreco2)+', '+str(notreco3))
 
 @app.get("/sentiment_analysis/{año}")
