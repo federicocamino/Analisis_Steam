@@ -1,23 +1,23 @@
 Genre,RYMaxHours,PlayerMH,Years Played by player
-Action,2012,Sp3ctre,"['{Año: 2015, Horas: 5310}', '{Año: 2016, Horas: 3298}', 'Sólo se encontraron datos de dos años jugados']"
-Casual,2015,REBAS_AS_F-T,"['{Año: 2012, Horas: 154}', 'Sólo se encontraron datos de un año jugado']"
-Indie,2006,REBAS_AS_F-T,['No se encontraron datos de años jugados']
-Simulation,2006,shinomegami,"['{Año: 2015, Horas: 11243}', 'Sólo se encontraron datos de un año jugado']"
-Strategy,2012,shinomegami,"['{Año: 2015, Horas: 9908}', 'Sólo se encontraron datos de un año jugado']"
-Free to Play,2013,shinomegami,"['{Año: 2015, Horas: 10183}', 'Sólo se encontraron datos de un año jugado']"
-RPG,2013,shinomegami,"['{Año: 2015, Horas: 8848}', '{Año: 2014, Horas: 139}', 'Sólo se encontraron datos de dos años jugados']"
-Sports,2015,76561197995725436,['No se encontraron datos de años jugados']
-Adventure,2006,REBAS_AS_F-T,"['{Año: 2012, Horas: 154}', '{Año: 2015, Horas: 145}', '{Año: 2011, Horas: 83}']"
-Racing,2015,DownSyndromeKid,['No se encontraron datos de años jugados']
-Early Access,2013,76561197978756659,['No se encontraron datos de años jugados']
-Massively Multiplayer,2006,clawbot44,['No se encontraron datos de años jugados']
-Animation & Modeling,2006,clawbot44,['No se encontraron datos de años jugados']
-Video Production,2015,ScottyG555,['No se encontraron datos de años jugados']
-Utilities,2014,76561198073642113,['No se encontraron datos de años jugados']
-Web Publishing,2012,Xyphien,"['{Año: 2015, Horas: 1183}', 'Sólo se encontraron datos de un año jugado']"
-Education,2010,tsunamitad,"['{Año: 2015, Horas: 10001}', 'Sólo se encontraron datos de un año jugado']"
-Software Training,2014,Lickidactyl,['No se encontraron datos de años jugados']
-Design & Illustration,2012,ScottyG555,['No se encontraron datos de años jugados']
-Audio Production,2014,Lickidactyl,['No se encontraron datos de años jugados']
-Photo Editing,2014,Sky_Wolf,['No se encontraron datos de años jugados']
+Action,2012,Sp3ctre,"['{Año: 2015, Horas: 9808}', '{Año: 2016, Horas: 3802}', '{Año: 2011, Horas: 2590}']"
+Casual,2015,REBAS_AS_F-T,"['{Año: 2016, Horas: 9624}', '{Año: 2015, Horas: 7844}', '{Año: 2013, Horas: 2591}']"
+Indie,2006,REBAS_AS_F-T,"['{Año: 2016, Horas: 14339}', '{Año: 2015, Horas: 13057}', '{Año: 2014, Horas: 6021}']"
+Simulation,2006,shinomegami,"['{Año: 2015, Horas: 11413}', '{Año: 2013, Horas: 1845}', '{Año: 2014, Horas: 455}']"
+Strategy,2012,shinomegami,"['{Año: 2015, Horas: 9979}', '{Año: 2013, Horas: 2506}', '{Año: 2014, Horas: 2185}']"
+Free to Play,2013,shinomegami,"['{Año: 2015, Horas: 12273}', '{Año: 2011, Horas: 1065}', '{Año: 2013, Horas: 737}']"
+RPG,2013,shinomegami,"['{Año: 2015, Horas: 10979}', '{Año: 2014, Horas: 2612}', '{Año: 2013, Horas: 2110}']"
+Sports,2015,76561197995725436,"['{Año: 2013, Horas: 1319}', '{Año: 2014, Horas: 1217}', '{Año: 2012, Horas: 682}']"
+Adventure,2006,REBAS_AS_F-T,"['{Año: 2016, Horas: 14583}', '{Año: 2015, Horas: 12412}', '{Año: 2014, Horas: 5002}']"
+Racing,2015,DownSyndromeKid,"['{Año: 2011, Horas: 4922}', '{Año: 2013, Horas: 1237}', '{Año: 2015, Horas: 79}']"
+Early Access,2013,76561197978756659,"['{Año: 2013, Horas: 5279}', '{Año: 2015, Horas: 3}', 'Sólo se encontraron datos de dos años jugados']"
+Massively Multiplayer,2006,clawbot44,"['{Año: 2011, Horas: 766}', '{Año: 2015, Horas: 541}', '{Año: 2014, Horas: 180}']"
+Animation & Modeling,2006,clawbot44,"['{Año: 2015, Horas: 36}', 'Sólo se encontraron datos de un año jugado']"
+Video Production,2015,ScottyG555,"['{Año: 2015, Horas: 2805}', 'Sólo se encontraron datos de un año jugado']"
+Utilities,2014,76561198073642113,"['{Año: 2014, Horas: 3460}', 'Sólo se encontraron datos de un año jugado']"
+Web Publishing,2012,Xyphien,"['{Año: 2015, Horas: 1183}', '{Año: 2012, Horas: 1077}', 'Sólo se encontraron datos de dos años jugados']"
+Education,2010,tsunamitad,"['{Año: 2015, Horas: 10001}', '{Año: 2013, Horas: 8}', '{Año: 2010, Horas: 7}']"
+Software Training,2014,Lickidactyl,"['{Año: 2014, Horas: 1831}', 'Sólo se encontraron datos de un año jugado']"
+Design & Illustration,2012,ScottyG555,"['{Año: 2015, Horas: 2805}', 'Sólo se encontraron datos de un año jugado']"
+Audio Production,2014,Lickidactyl,"['{Año: 2014, Horas: 1831}', 'Sólo se encontraron datos de un año jugado']"
+Photo Editing,2014,Sky_Wolf,"['{Año: 2014, Horas: 364}', 'Sólo se encontraron datos de un año jugado']"
 Accounting,2015,Player Not Found,['No se encontraron datos de años jugados']
