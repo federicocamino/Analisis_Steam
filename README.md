@@ -30,10 +30,12 @@ Los resultados de las funciones pueden obtenerse de la siguiente [**App**](https
 Realizando iun análisis de los datos clasificados por género, se concluye que los dos géneros más jugados, y que más facturación aportan son Action y Adventure. Por otro lado, el género que más juegos tiene es Indie. Steam debería invertir más en los juegos de las dos primeras categorías.
 ![](/Datos_procesados/Imagenes/RevenuesbyGenre.png)
 ![](/Datos_procesados/Imagenes/PlayersbyGenre.png)
-![](/Datos_procesados/Imagenes/RevenuesbyGenre.png)
+![](/Datos_procesados/Imagenes/GamesbyGenre.png)
 
 Existen también 2.823 juegos con una facturación total menor a 100 dólares. Quizás sea conveniente evaluar su permanencia.
 
 Por otro lado, puede observarse que desde el año 2014 la cantidad de reviews viene bajando. Debería insitirse más en generar más reviews (pues su feedback ayuda a mejorar la propuesta de juegos).
 
 ![](/Datos_procesados/Imagenes/ReviewsbyYear.png)
+
+[**Video Explicativo**](https://www.youtube.com/watch?v=i5LjFiq1ah4)
