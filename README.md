@@ -28,9 +28,9 @@ The results of the functions can be obtained from the following [**App**](https:
 ## Exploratory data analysis
 
 Performing an analysis of the data classified by genre, it can be concluded that the two most played genres, and those that contribute the most revenue, are Action and Adventure. On the other hand, the genre that has the most amount of games is Indie. Steam should invest more in games in the first two categories.
-![](/Processed_data/Images/RevenuesbyGenre.png)
-![](/Processed_Data/Images/PlayersbyGenre.png)
-![](/Processed_data/Images/GamesbyGenre.png)
+![](/Datos_procesados/Imagenes/RevenuesbyGenre.png)
+![](/Datos_procesados/Imagenes/PlayersbyGenre.png)
+![](/Datos_procesados/Imagenes/GamesbyGenre.png)
 
 There are also 2,823 games with a total turnover of less than $100. It may be advisable to evaluate whether these games should continue on the platform or not.
 
