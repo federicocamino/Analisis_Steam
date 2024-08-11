@@ -8,9 +8,9 @@ It's a gaming platform in which users can buy games and play online, and make co
 ## Basic information
 
 It is based on the following information:
-- [steam_games](/Raw_Data/steam_games.json.gz): game data on the Steam platform
-- [user_items](/Raw_Data/users_items.json.gz): game data and hours played per user
-- [user_reviews](/Unprocessed_Data/user_reviews.json.gz): users comments and recommendations
+- [steam_games](/Datos_sin_procesar/steam_games.json.gz): game data on the Steam platform
+- [user_items](/Datos_sin_procesar/users_items.json.gz): game data and hours played per user
+- [user_reviews](/Datos_sin_procesar/user_reviews.json.gz): users comments and recommendations
 
 ## Deployed functions
 
@@ -36,7 +36,7 @@ There are also 2,823 games with a total turnover of less than $100. It may be ad
 
 On the other hand, since 2014 the number of reviews has been decreasing. There should be more emphasis on generating more reviews (since their feedback helps improve the game proposal).
 
-![](/Processed_Data/Images/ReviewsbyYear.png)
+![](/Datos_procesados/Imagenes/ReviewsbyYear.png)
 
 [**Instructions Video**](https://www.youtube.com/watch?v=i5LjFiq1ah4)
 
