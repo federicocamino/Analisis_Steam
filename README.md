@@ -1,4 +1,47 @@
-# Analisis_Steam
+#Steam_Analysis
+
+## Objective
+
+The aim is to perform a statistical analysis and a recommendations system based on data obtained from [Steam](https://store.steampowered.com/?l=spanish) platform.
+It's a gaming platform in which users can buy games and play online, and make comments and recommendations about them.
+
+## Basic information
+
+It is based on the following information:
+- [steam_games](/Raw_Data/steam_games.json.gz): game data on the Steam platform
+- [user_items](/Raw_Data/users_items.json.gz): game data and hours played per user
+- [user_reviews](/Unprocessed_Data/user_reviews.json.gz): users comments and recommendations
+
+## Deployed functions
+
+- PlayTimeGenre (_enter genre_): Returns the year with the most hours played for the selected genre.
+- UserForGenre (_enter genre_): Returns the user who accumulates the most hours played for the given genre and a list of the total hours played per year.
+- UsersRecommend (_enter year_): Returns the top 3 games most recommended by users for the given year.
+- UsersNotRecommend (_enter year_): Returns the top 3 games least recommended by users for the given year. 
+- sentiment_analysis (_enter year_): Returns a list with the number of user reviews records based on a sentiment analysis for the selected year.
+- game_recommendation (_enter product id_): Returns a list with 5 recommended games similar to the entered product.
+
+## Results
+
+The results of the functions can be obtained from the following [**App**](https://analisis-steam.onrender.com/docs)
+
+## Exploratory data analysis
+
+Performing an analysis of the data classified by genre, it can be concluded that the two most played genres, and those that contribute the most revenue, are Action and Adventure. On the other hand, the genre that has the most amount of games is Indie. Steam should invest more in games in the first two categories.
+![](/Processed_data/Images/RevenuesbyGenre.png)
+![](/Processed_Data/Images/PlayersbyGenre.png)
+![](/Processed_data/Images/GamesbyGenre.png)
+
+There are also 2,823 games with a total turnover of less than $100. It may be advisable to evaluate whether these games should continue on the platform or not.
+
+On the other hand, since 2014 the number of reviews has been decreasing. There should be more emphasis on generating more reviews (since their feedback helps improve the game proposal).
+
+![](/Processed_Data/Images/ReviewsbyYear.png)
+
+[**Instructions Video**](https://www.youtube.com/watch?v=i5LjFiq1ah4)
+
+
+# Analisis Steam (versión en español)
 
 ## Objetivo
 
